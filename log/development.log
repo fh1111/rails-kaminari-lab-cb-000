@@ -6880,3 +6880,69 @@ Processing by SongsController#index as HTML
 Completed 200 OK in 45ms (Views: 40.1ms | ActiveRecord: 4.0ms)
 
 
+Started GET "/songs?page=27" for 76.116.130.143 at 2019-02-22 00:37:43 +0000
+Cannot render console from 76.116.130.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#index as HTML
+  Parameters: {"page"=>"27"}
+  Rendering songs/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "songs"[0m
+  [1m[36mSong Load (4.0ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" ORDER BY "songs"."title" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 520]]
+  Rendered songs/index.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 67ms (Views: 61.1ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/songs?page=29" for 76.116.130.143 at 2019-02-22 00:37:43 +0000
+Cannot render console from 76.116.130.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#index as HTML
+  Parameters: {"page"=>"29"}
+  Rendering songs/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "songs"[0m
+  [1m[36mSong Load (4.5ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" ORDER BY "songs"."title" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 560]]
+  Rendered songs/index.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 48ms (Views: 42.7ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/songs?page=31" for 76.116.130.143 at 2019-02-22 00:37:44 +0000
+Cannot render console from 76.116.130.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#index as HTML
+  Parameters: {"page"=>"31"}
+  Rendering songs/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "songs"[0m
+  [1m[36mSong Load (3.9ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" ORDER BY "songs"."title" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 600]]
+  Rendered songs/index.html.erb within layouts/application (70.1ms)
+Completed 200 OK in 78ms (Views: 72.4ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/songs?page=33" for 76.116.130.143 at 2019-02-22 00:37:44 +0000
+Cannot render console from 76.116.130.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#index as HTML
+  Parameters: {"page"=>"33"}
+  Rendering songs/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "songs"[0m
+  [1m[36mSong Load (4.2ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" ORDER BY "songs"."title" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 640]]
+  Rendered songs/index.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 50ms (Views: 44.2ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/songs?page=35" for 76.116.130.143 at 2019-02-22 00:37:44 +0000
+Cannot render console from 76.116.130.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#index as HTML
+  Parameters: {"page"=>"35"}
+  Rendering songs/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "songs"[0m
+  [1m[36mSong Load (6.9ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" ORDER BY "songs"."title" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 680]]
+  Rendered songs/index.html.erb within layouts/application (70.7ms)
+Completed 200 OK in 83ms (Views: 73.9ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/songs?page=38" for 76.116.130.143 at 2019-02-22 00:37:45 +0000
+Cannot render console from 76.116.130.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#index as HTML
+  Parameters: {"page"=>"38"}
+  Rendering songs/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "songs"[0m
+  [1m[36mSong Load (4.2ms)[0m  [1m[34mSELECT  "songs".* FROM "songs" ORDER BY "songs"."title" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 740]]
+  Rendered songs/index.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 53ms (Views: 47.5ms | ActiveRecord: 4.4ms)
+
+
