@@ -9,7 +9,7 @@ RSpec.describe SongsController do
     end
   end
 
-  describe "GET /index" do
+#  describe "GET /index" do
     it 'pages 20 per page' do
       get :index
       expect(assigns[:songs].count).to eq 20
